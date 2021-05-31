@@ -29,3 +29,12 @@ select
 from estados 
 where populacao >= 10 
 order by populacao desc;
+
+select 
+	estados.nome
+from estados;
+
+select 
+	est.nome 
+from estados est 
+where est.sigla = 'MA';
